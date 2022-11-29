@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="Portfolio Ramiro Zabala">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ramiro Zabala">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Boostrap 5.2.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body >
+    <!--Nav Bar-->
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-transparent py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/profile_small.JPG" alt="Logo" width="50" height="50" class="d-inline-block align-text-center rounded-circle me-3">
+          RAMIRO ZABALA
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Educacion">Educación</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Habilidades">Habilidades</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="maincontainer" class="container my-5 text-white-50 fs-5">
+      <div class="row g-5"><!--PRINCIPAL-->
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+          <img src="images/profile.JPG" class="img-fluid rounded" alt="profile picture">
+        </div>
+        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          <div class="mb-5"><h2>RAMIRO ZABALA</h2><p class="mb-3">Estudiante de Programación e Informática</p><p class="mb-3">Rosario, Santa Fe (Argentina)</p></div>
+          <div class="row mb-5">
+              <div class="col-2 col-sm-2 col-lg-1 col-xl-1 social face"><a href="https://www.facebook.com/profile.php?id=100009462435183" target="_blank"></a></div>
+              <div class="col-2 col-sm-2 col-lg-1 col-xl-1 social twit"><a href="https://twitter.com/RamiroZabala17" target="_blank"></a></div>
+              <div class="col-2 col-sm-2 col-lg-1 col-xl-1 social inst"><a href="https://twitter.com/RamiroZabala17" target="_blank"></a></div>
+          </div>
+          <div class="mb-3">
+            <h3>Contácto</h3>
+            <p class="mb-3">Email: <a href = "mailto: ramirozabala5@gmail.com">ramirozabala5@gmail.com</a></p>
+            <p class="mb-3">Teléfono: <a href = "tel:+5493412-178-186">+54 9 3412-178-186</a></p>
+          </div>
+        </div>
+      </div>
+      <hr class="border border-1 opacity-25">
+      <div id="Educacion" class="row g-5 "><!--EDUCACION-->
+        <h3>EDUCACION</h3>
+        <div class="col-12 mt-4">
+          <div class="row mb-4">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+              <img src="images/APLogo-20-20.png" class="img-fluid rounded-start" alt="" >
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-11">
+              <h4 class="card-title" >Programador Web Full Stack Jr</h4>
+              <p class="card-text">YoProgramo 4ta Edición (INTI)</p>
+              <p class="card-text" style="margin-top:-10px;"><small class="text-muted">2022 - En curso</small></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+              <img src="images/LogoEESO436.png" class="img-fluid rounded-start" alt="" >
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-11">
+              <h4 class="card-title" >Secundario</h4>
+              <p class="card-text">Escuela de enseñanza media Nº436 - Juan Mantovani</p>
+              <p class="card-text" style="margin-top:-10px;"><small class="text-muted">2000 - 2005</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border border-1 opacity-25">
+      <div id="Habilidades" class="row g-5"><!--HABILIDADES-->
+        <h3>HABILIDADES INFORMATICAS</h3>
+        <div class="col-sm-12 col-lg-6">
+          <h4>Web Developer</h4>
+          <h5>HTML5</h5>
+          <div class="progress"><div class="progress-bar" role="progressbar" aria-label="HTML5" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+          <h5>Javascript</h5>
+          <div class="progress"><div class="progress-bar" role="progressbar" aria-label="Javascript" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+          <h5>PHP</h5>
+          <div class="progress"><div class="progress-bar" role="progressbar" aria-label="PHP" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div>
+          <h5>CSS3</h5>
+          <div class="progress"><div class="progress-bar" role="progressbar" aria-label="CSS3" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div></div>
+          <h5>MySQL</h5>
+          <div class="progress"><div class="progress-bar" role="progressbar" aria-label="MySQL" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div></div>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <h4>Otras</h4>
+          <h5>Photoshop</h5>
+          <div class="progress"><div class="progress-bar" role="progressbar" aria-label="Photoshop" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div>
+          <h5>Graficos Vectoriales</h5>
+          <div class="progress"><div class="progress-bar" role="progressbar" aria-label="Graficos Vectoriales" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+          <h5>Modelado y Renderizado 3D</h5>
+          <div class="progress"><div class="progress-bar" role="progressbar" aria-label="Modelado y Renderizado 3D" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div></div>
+          <h5>Desarrollo de Videojuegos</h5>
+          <div class="progress"><div class="progress-bar" role="progressbar" aria-label="CSS" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div></div>
+        </div>
+      </div>
+      <hr class="border border-1 opacity-25">
+    </div>
+  </body>
+</html>
